@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20e131e304.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="site-navbar">
+        <ul>
+            <h1>Spotify</h1>
+           <li> <button class="Signup">Sign-Up</button></li>
+          <li><button class="Login">Login</button></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="musicplayer">
+            <nav id="player-nav">
+                <!-- <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i> 
+                </div> -->
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div id="dark" class="circle">
+                    <i class="fa-solid fa-moon" id="dark" style="color: rgb(16, 16, 46);"></i>
+                </div>
+                <div class="circle" id="light" style="display: none;">
+                    <i class="fa-regular fa-sun" id="light" style="color: rgb(243, 240, 81);"></i>
+                </div>
+            </nav>
+            <img id="sbg" src="arijit.jpg">
+            <h1 id="songname">Channa Mereya</h1>
+            <p id="artist">Arijit Singh</p>
+
+            <!-- <img id="sbg" src="arjan-vailly.jpg" style="display: none;">
+            <h1 style="display: none;">Channa Mereya</h1>
+            <p style="display: none;">Arijit Singh</p>
+
+            <img id="sbg" src="tenuleke.jpg" style="display: none;">
+            <h1 style="display: none;">Channa Mereya</h1>
+            <p style="display: none;">Arijit Singh</p> -->
+
+           <div class="songrange">
+            <input type="range" name="" id="srg" value="0" min="0" max="100">
+            
+            
+        </div>
+        <span id="currenttime">00:00</span>
+        <span id="duration">00:00</span>
+           <div class="picons">
+            <i class="fa-solid fa-backward" id="backward"></i>
+            <i class="fa-solid fa-circle-play" id="played" accesskey="Ctrl+Alt"></i>
+            <i class="fa-solid fa-pause" id="pause" style="display:none;"></i>
+            <i class="fa-solid fa-forward" id="forward"></i>
+           </div>
+        </div>
+    </div>
+
+    </body>
+<script src="script.js"></script>
+</html>
