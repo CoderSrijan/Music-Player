@@ -130,8 +130,9 @@ audioElement.addEventListener("timeupdate", () => {
 
   if (audioElement.currentTime >= audioElement.duration) {
     audioElement.pause();
-    Paused.style.display = "none";
-    Played.style.display = "inline";
+   // Paused.style.display = "none";
+   // Played.style.display = "inline";
+    forward.click();
   }
 });
 
