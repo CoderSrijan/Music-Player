@@ -154,7 +154,15 @@
   .picons i{
     margin: 0px 33px 0px 0px;
     cursor: pointer;
-  }
+  } 
+
+   footer{
+    display: flex;
+    font-size: 20px;
+    color: #18d9af;
+    background-color: white;
+    justify-content: center;
+   }
   
   @media (min-width: 300px) and (max-width: 750px) {
     body{
